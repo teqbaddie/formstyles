@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styletwo.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>FORM STYLES</h1>
+      <h2>
+        <a href="./index.html" class="prev">
+          <i class="fa-solid fa-caret-left"> </i
+        ></a>
+        2
+        <a href="./form-three.html">
+          <i class="fa-solid fa-caret-right"> </i
+        ></a>
+      </h2>
+      <h3>
+        These forms has only input fields with detailed placeholders, there are
+        no labels. These forms will be best used for kiddies websites, as it is
+        very colorful.
+      </h3>
+    </div>
+    
+    <div class="form-container-one">
+      <form action="" method="post">
+        <div class="title-one">User Sign Up</div>
+        <input
+          type="text"
+          name="fullName"
+          class="field"
+          placeholder="enter your full name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          class="field"
+          placeholder="enter your email address"
+          required
+        />
+        <br />
+        <input
+          type="tel"
+          name="tel"
+          class="field"
+          id="tel"
+          placeholder="enter your phone number"
+          required
+        />
+        <input type="date" name="dob" class="field" />
+        <br />
+        <div class="spec-field-four">
+          <input type="radio" name="male" id="male" />&nbsp Male
+        </div>
+        <div class="spec-field-four">
+          <input type="radio" name="female" id="female" />&nbsp Female
+        </div>
+        <input
+          type="number"
+          name="age"
+          class="field-spec"
+          placeholder="enter your age"
+        />
+        <br />
+        <select name="track" class="spec-field" required>
+          <option value="">Product Designing</option>
+          <option value="">Frontend Engineering</option>
+          <option value="">Backend Engineering</option>
+          <option value="">Cloud Engineering</option>
+        </select>
+        <br />
+        <input type="file" name="" class="field" id="" required />
+        <input
+          type="password"
+          name=""
+          class="field"
+          placeholder="enter your password"
+          required
+        />
+        <br />
+        <button type="submit" class="btn-one">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="form-container-two">
+      <form action="" method="post">
+        <div class="title-two">User Sign In</div>
+        <input
+          type="text"
+          name=""
+          class="spec-field-three"
+          id=""
+          placeholder="enter your username"
+          required
+        />
+        <br />
+        <input
+          type="password"
+          name=""
+          class="spec-field-three"
+          id=""
+          placeholder="enter your password"
+          required
+        />
+        <br />
+        <button type="submit" class="btn-two">Sign In</button>
+      </form>
+    </div>
+
+    <div class="form-container-three">
+      <form action="" method="post">
+        <div class="title-three">Contact Us</div>
+        <input
+          type="text"
+          name=""
+          class="spec-field-five"
+          id=""
+          placeholder="enter your name"
+          required
+        />
+        <input
+          type="email"
+          name=""
+          class="spec-field-five"
+          id=""
+          placeholder="enter your email address"
+          required
+        />
+        <br />
+        <textarea
+          name="message"
+          class="spec-field-two"
+          id=""
+          placeholder="enter your message"
+          required
+        ></textarea>
+        <br />
+        <button type="submit" class="btn-three">Send</button>
+      </form>
+    </div>
+
+  </body>
+</html>

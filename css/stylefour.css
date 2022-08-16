@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/bgimage1.jpg);
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+img {
+  backdrop-filter: blur(70px);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading h1 {
+  font-size: 1.5rem;
+  margin: 30px auto;
+}
+
+.heading h2 {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  background-color: white;
+  width: 100%;
+  top: 95vh;
+  z-index: 1;
+}
+
+.heading h2 > a {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+.heading h2 > a:hover {
+  color: grey;
+}
+
+.heading h3 {
+  font-size: 1rem;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 30px 0px;
+  border-bottom: 3px solid purple;
+  width: fit-content;
+  margin: 40px auto 80px auto;
+  background-color: white;
+  color: black;
+}
+
+.field {
+  padding: 12px 10px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  width: 200px;
+  color: grey;
+  background-color: rgb(247, 220, 247);
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.spec-field {
+  padding: 12px 10px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  width: 200px;
+  color: grey;
+  background-color: rgb(247, 220, 247);
+  font-size: 0.7rem;
+  outline: none;
+  width: 227px;
+}
+
+.spec-field-one {
+  padding: 12px 10px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: -15px;
+  width: 200px;
+  color: grey;
+  background-color: rgb(247, 220, 247);
+  font-size: 0.7rem;
+  outline: none;
+  width: 227px;
+}
+
+.spec-field-two {
+  display: inline-flex;
+  padding: 12px 10px;
+  border: none;
+  margin-top: 5px;
+  width: 112px;
+  color: grey;
+  background-color: rgb(247, 220, 247);
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.spec-field-spec {
+  margin-left: 20px;
+}
+
+.fa-icon {
+  margin-right: 20px;
+  background-color: rgb(247, 220, 247);
+  width: 28px;
+  height: 36px;
+  padding: 8px;
+  padding-left: 2px;
+  color: grey;
+}
+
+.title {
+  background-color: white;
+  color: purple;
+  border-top: 3px solid purple;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 12px 0px 0px 0px;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 9px;
+  border: none;
+  margin: 30px auto 0px auto;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: rgb(226, 83, 226);
+}

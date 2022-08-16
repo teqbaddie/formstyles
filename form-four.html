@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylefour.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>FORM STYLES</h1>
+      <h2>
+        <a href="./form-three.html" class="prev">
+          <i class="fa-solid fa-caret-left"> </i
+        ></a>
+        4
+        <a href="./form-five.html"> <i class="fa-solid fa-caret-right"> </i></a>
+      </h2>
+      <h3>
+        These forms has only input fields with detailed placeholders, and icons.
+        The forms occupy a lesser space due to the absence of labels
+      </h3>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post">
+        <div class="title">User Sign Up</div>
+        <input
+          type="text"
+          name="fullName"
+          class="field"
+          placeholder="Full name"
+          required
+        /><i class="fa-solid fa-user fa-icon"></i>
+        <br />
+        <input
+          type="email"
+          name="email"
+          class="field"
+          placeholder="Email address"
+          required
+        /><i class="fa-solid fa-envelope fa-icon"></i>
+        <br />
+        <input
+          type="tel"
+          name="tel"
+          class="field"
+          id="tel"
+          placeholder="Phone number"
+          required
+        /><i class="fa-solid fa-phone fa-icon"></i>
+        <br />
+        <input type="date" name="dob" class="spec-field" id="dob" />
+        <br />
+        <div class="spec-field-two spec-field-spec">
+          <input type="radio" name="male" id="male" /> &nbsp &nbsp Male
+        </div>
+        <div class="spec-field-two">
+          <input type="radio" name="female" id="female" /> &nbsp &nbsp Female
+        </div>
+        <br />
+        <input type="number" name="age" class="field" placeholder="Age" /><i
+          class="fa-solid fa-gift fa-icon"
+        ></i>
+        <br />
+        <select name="track" class="spec-field" required>
+          <option value="">Product Designing</option>
+          <option value="">Frontend Engineering</option>
+          <option value="">Backend Engineering</option>
+          <option value="">Cloud Engineering</option>
+        </select>
+        <br />
+        <input type="file" name="" class="spec-field" id="" required />
+        <br />
+        <input
+          type="password"
+          name=""
+          class="field"
+          placeholder="Password"
+          required
+        /><i class="fa-solid fa-lock fa-icon"></i>
+        <br />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post">
+        <div class="title">User Sign In</div>
+        <input
+          type="text"
+          name=""
+          class="field"
+          id=""
+          placeholder="Username"
+          required
+        /><i class="fa-solid fa-user fa-icon"></i>
+        <br />
+        <input
+          type="password"
+          name=""
+          class="field"
+          id=""
+          placeholder="Password"
+          required
+        /><i class="fa-solid fa-lock fa-icon"></i>
+        <br />
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post">
+        <div class="title">Contact Us</div>
+        <input
+          type="text"
+          name=""
+          class="field"
+          id=""
+          placeholder="Name"
+          required
+        /><i class="fa-solid fa-user fa-icon"></i>
+        <br />
+        <input
+          type="email"
+          name=""
+          class="field"
+          id=""
+          placeholder="Email address"
+          required
+        /><i class="fa-solid fa-envelope fa-icon"></i>
+        <br />
+        <textarea
+          name=""
+          class="spec-field"
+          placeholder="Message"
+          id=""
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>

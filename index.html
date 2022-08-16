@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>FORM STYLES</h1>
+      <h2>
+        <a href="./index.html" class="prev">
+          <i class="fa-solid fa-caret-left"> </i>
+        </a>
+        1
+        <a href="./form-two.html"> <i class="fa-solid fa-caret-right"> </i></a>
+      </h2>
+      <h3>
+        These forms has a glassmorphism effect (made with CSS) and that makes
+        the background image appear translucent in the form sections.
+      </h3>
+    </div>
+
+    <div class="title">User Sign Up</div>
+    <div class="form-container">
+      <form action="" method="post">
+        <label for="fullName">Full Name: </label>
+        <input
+          type="text"
+          name="firstName"
+          class="field"
+          id="firstName"
+          placeholder="eg. Oyinkansola Shoroye"
+          required
+        />
+        <br />
+        <label for="lastName">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="field"
+          placeholder="eg. oyinkansola@gmail.com"
+          required
+        />
+        <br />
+        <label for="phoneNumber">Phone No.:</label>
+        <input
+          type="tel"
+          name="tel"
+          id="tel"
+          class="field"
+          placeholder="eg. +234 812 6018 550"
+          required
+        />
+        <br />
+        <label for="age">Age:</label>
+        <input type="number" name="age" class="field" id="age" value="18" />
+        <br />
+        <label for="dob">D.O.B:</label>
+        <input type="date" name="dob" class="field" id="dob" />
+        <br />
+        <label for="tracks">Gender:</label>
+        <div class="spec-field-one">
+          <input type="radio" name="male" class="spec-field" id="male" /> Male
+          &nbsp &nbsp &nbsp
+        </div>
+        <div class="spec-field-one">
+          <input type="radio" name="female" class="spec-field" id="female" />
+          Female &nbsp &nbsp &nbsp
+        </div>
+        <br />
+        <label for="gender">Track:</label>
+        <select name="track" class="field" id="track" required>
+          <option value="">Product Designing</option>
+          <option value="">Frontend Engineering</option>
+          <option value="">Backend Engineerng</option>
+          <option value="">Cloud Engineering</option>
+        </select>
+        <br />
+        <label for="file">Add Photo:</label>
+        <input type="file" name="doc" class="field" id="doc" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" name="" class="field" id="psw" required />
+        <br />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="title-one">User Sign In</div>
+    <div class="form-container">
+      <form action="" method="post">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name=""
+          class="field"
+          id="username"
+          placeholder="eg. Teqbaddie"
+          required
+        />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" class="field" name="" id=" psw" required />
+        <br />
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+
+    <div class="title-two">Contact Us</div>
+    <div class="form-container">
+      <form action="" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name=""
+          class="field"
+          id="name"
+          placeholder="eg. Oyinkansola"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name=""
+          class="field"
+          id="email"
+          placeholder="eg. teqbaddie@gmail.com"
+          required
+        />
+        <br />
+        <label for="messsage">Message:</label>
+        <input
+          type="text"
+          name=""
+          class="field"
+          id="msg"
+          placeholder="..."
+          required
+        />
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

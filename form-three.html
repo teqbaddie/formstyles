@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylethree.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>FORM STYLES</h1>
+      <h2>
+        <a href="./form-two.html" class="prev">
+          <i class="fa-solid fa-caret-left"> </i
+        ></a>
+        3
+        <a href="./form-four.html"> <i class="fa-solid fa-caret-right"> </i></a>
+      </h2>
+      <h3>
+        These forms has labels and input fields. The form occupies more space
+        since the labels and input fields are in block styles.
+      </h3>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post" class="container">
+        <div class="title">User Sign Up</div>
+        <label for="fullName" class="txt">Full Name <span>*</span></label>
+        <br />
+        <input
+          type="text"
+          name="firstName"
+          class="field"
+          id="firstName"
+          required
+        />
+        <br />
+        <label for="email" class="txt">Email <span>*</span></label>
+        <br />
+        <input type="email" name="email" class="field" id="email" required />
+        <br />
+        <label for="phoneNumber" class="txt">Phone Number <span>*</span></label>
+        <br />
+        <input type="tel" name="tel" class="field" id="tel" required />
+        <br />
+        <label for="age" class="txt">Age</label>
+        <br />
+        <input type="number" name="age" class="field" id="age" />
+        <br />
+        <label for="dob" class="txt">Date of Birth</label>
+        <br />
+        <input type="date" name="dob" class="field" id="dob" />
+        <br />
+        <label for="tracks" class="txt">Gender <span>*</span></label>
+        <br />
+        <div class="spec-field-two">
+          <input type="radio" name="male" id="male" /> &nbsp &nbsp Male
+        </div>
+        <div class="spec-field-two">
+          <input type="radio" name="female" id="female" /> &nbsp &nbsp Female
+        </div>
+        <br />
+        <div class="txt-two">
+          <label for="track" class="txt">Track <span>*</span></label>
+        </div>
+        <br />
+        <select name="track" class="field" id="track" required>
+          <option value="">Product Designing</option>
+          <option value="">Frontend Engineering</option>
+          <option value="">Backend Engineerng</option>
+          <option value="">Cloud Engineering</option>
+        </select>
+        <br />
+        <label for="file" class="txt">Add Photo <span>*</span></label>
+        <br />
+        <div class="spec-field-one">
+          <input type="file" name="doc" id="doc" required />
+        </div>
+        <br />
+        <div class="txt-two">
+          <label for="password" class="txt">Password <span>*</span></label>
+        </div>
+        <br />
+        <input type="password" name="" class="field" id="" required />
+        <br />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post">
+        <div class="title">User Sign In</div>
+        <label for="username" class="txt">Username <span>*</span></label>
+        <br />
+        <input type="text" name="" class="spec-field-three" id="" required />
+        <br />
+        <label for="password" class="txt">Password <span>*</span></label>
+        <br />
+        <input
+          type="password"
+          name=""
+          class="spec-field-three"
+          id=""
+          required
+        />
+        <br />
+        <button type="submit" class="btn">Sign In</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form action="" method="post">
+        <div class="title">Contact Us</div>
+        <label for="name" class="txt">Name <span>*</span></label>
+        <br />
+        <input type="text" name="" class="field" id="" required />
+        <br />
+        <label for="email" class="txt">Email <span>*</span></label>
+        <br />
+        <input type="email" name="" class="field" id="" required />
+        <br />
+        <label for="messsage" class="txt">Message <span>*</span></label>
+        <br />
+        <textarea
+          name=""
+          id=""
+          cols="25"
+          rows="8"
+          class="spec-field"
+          required
+        ></textarea>
+        <br />
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
