@@ -21,23 +21,28 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  background-color: #f9f586;
+  z-index: 3;
+  width: 100%;
+  margin-left: -10px;
 }
 
 .heading h1 {
-  font-size: 1.5rem;
-  margin: 30px auto;
+  font-size: 1.40rem;
+  margin: 18px auto;
 }
 
 .heading h2 {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  margin-bottom: 15px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
-  background-color: white;
+  background-color: #f9f586;
   width: 100%;
-  top: 95vh;
+  width: 100%;
   z-index: 1;
 }
 
@@ -54,6 +59,10 @@ body {
 
 .heading h3 {
   font-size: 1rem;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
 }
 
 .title-one {
@@ -98,7 +107,7 @@ body {
   justify-content: center;
   padding: 0px 5px 35px 5px;
   width: fit-content;
-  margin: 60px auto;
+  margin: 230px auto 30px auto;
   background: white;
   color: black;
   border-radius: 7px;

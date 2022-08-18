@@ -20,28 +20,32 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  background-color: #6C4EA4;
+  z-index: 3;
+  width: 100%;
+  margin-left: -10px;
 }
 
 .heading h1 {
-  font-size: 1.55rem;
-  margin: 30px auto;
+  font-size: 1.45rem;
+  margin: 18px auto;
 }
 
 .heading h2 {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  margin-bottom: 15px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
-  background-color: white;
+  background-color: #6C4EA4;
   width: 100%;
-  top: 96vh;
   z-index: 1;
 }
 
 .heading h2 > .prev {
-  color: white;
+  color: #6C4EA4;
   cursor: default;
 }
 
@@ -62,11 +66,15 @@ body {
 
 .heading h3 {
   font-size: 1rem;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
 }
 
 .title {
   background-color: black;
-  margin: 50px auto 0px auto;
+  margin: 220px auto 0px auto;
   text-align: center;
   color: white;
   padding: 10px 12px;
