@@ -26,10 +26,9 @@ img {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  background-color: #BBACD8;
   z-index: 3;
   width: 100%;
+  margin-top: 30px;
 }
 
 .heading h1 {
@@ -38,15 +37,18 @@ img {
 }
 
 .heading h2 {
+  position: fixed;
+  background-color: #BBACD8;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-top: 5px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: #BBACD8;
   width: 100%;
-  top: 95vh;
+  top: 0;
   z-index: 1;
 }
 
@@ -82,7 +84,7 @@ img {
 }
 
 .active {
-  margin-top: 220px;
+  margin-top: 30px;
 }
 
 .field {
@@ -92,6 +94,7 @@ img {
   margin-left: 20px;
   margin-bottom: 3px;
   width: 200px;
+  height: 36px;
   color: grey;
   background-color: rgb(247, 220, 247);
   font-size: 0.7rem;
@@ -124,6 +127,7 @@ img {
   font-size: 0.7rem;
   outline: none;
   width: 227px;
+  height: 36px;
 }
 
 .spec-field-two {
@@ -136,10 +140,12 @@ img {
   background-color: rgb(247, 220, 247);
   font-size: 0.7rem;
   outline: none;
+  height: 36px;
 }
 
 .spec-field-spec {
   margin-left: 20px;
+  height: 36px;
 }
 
 .fa-icon {

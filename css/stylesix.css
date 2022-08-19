@@ -10,18 +10,16 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-  padding-top: 90px;
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
-  background-color: black;
   z-index: 3;
   top: 0;
   width: 100%;
+  margin-top: 30px;
 }
 
 .heading h1 {
@@ -31,15 +29,19 @@ body {
   font-weight: 520;
 }
 
-.heading h2 {
+.heading h2 { 
+  position: fixed;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-top: 5px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: black;
   width: 100%;
+  top: 0;
   z-index: 1;
 }
 

@@ -18,10 +18,9 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  background-color: #6C4EA4;
   z-index: 3;
   width: 100%;
+  margin-top: 30px;
 }
 
 .heading h1 {
@@ -30,14 +29,18 @@ body {
 }
 
 .heading h2 {
+  position: fixed;
+  background-color: #6C4EA4;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-top: 5px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: #6C4EA4;
   width: 100%;
+  top: 0;
   z-index: 1;
 }
 
@@ -72,7 +75,7 @@ body {
 }
 
 .active {
-  margin-top: 240px;
+  margin-top: 30px;
 }
 
 .form-container {
@@ -90,7 +93,7 @@ body {
 
 .field {
   padding: 18px 10px;
-  height: 37px;
+  height: 38px;
   border: none;
   margin-top: 5px;
   margin-right: 20px;
@@ -112,7 +115,7 @@ body {
 
 .field-spec {
   padding: 18px 10px;
-  height: 37px;
+  height: 38px;
   border: none;
   margin-top: 5px;
   margin-right: 20px;
@@ -143,6 +146,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
+  height: 38px;
   background-color: transparent;
   color: white;
   font-size: 0.7rem;
@@ -164,6 +168,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
+  height: 38px;
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
@@ -181,6 +186,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
+  height: 38px;
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
@@ -200,6 +206,7 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.35);
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   width: 78px;
+  height: 38px;
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
@@ -209,11 +216,13 @@ body {
 .spec-field-spec {
   margin-right: -4px;
   margin-left: -24px;
+  height: 38px;
 }
 
 .spec-field-specs {
   padding-left: 10px;
   width: 121px;
+  height: 38px;
   border-right: 1px solid rgba(255, 255, 255, 0.35);
 }
 

@@ -20,8 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  background-color: #6C4EA4;
+  margin-top: 30px;
   z-index: 3;
   width: 100%;
   margin-left: -10px;
@@ -30,18 +29,23 @@ body {
 .heading h1 {
   font-size: 1.45rem;
   margin: 18px auto;
+  background-color: #6C4EA4;
 }
 
 .heading h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  margin-right: -15px;
+  padding-top: 5px;
+  top: 0;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: #6C4EA4;
   width: 100%;
   z-index: 1;
+  position: fixed;
 }
 
 .heading h2 > .prev {
@@ -74,11 +78,11 @@ body {
 
 .title {
   background-color: black;
-  margin: 220px auto 0px auto;
+  margin: 30px auto 0px auto;
   text-align: center;
   color: white;
   padding: 10px 12px;
-  width: 326.41px;
+  width: 325px;
   border-radius: 7px 7px 0px 0px;
   font-size: 1.2rem;
 }
@@ -89,7 +93,7 @@ body {
   text-align: center;
   color: white;
   padding: 10px 12px;
-  width: 254.53px;
+  width: 280px;
   border-radius: 7px 7px 0px 0px;
   font-size: 1.2rem;
 }
@@ -100,7 +104,7 @@ body {
   text-align: center;
   color: white;
   padding: 10px 12px;
-  width: 246.22px;
+  width: 280px;
   border-radius: 7px 7px 0px 0px;
   font-size: 1.2rem;
 }
@@ -110,7 +114,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 30px 5px 30px 20px;
-  width: fit-content;
   margin: 5px auto 50px auto;
   color: black;
   border-radius: 0px 0px 7px 7px;
@@ -119,6 +122,14 @@ body {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-container-one {
+  width: 325px;
+}
+
+.form-container-two {
+  width: 280px;
 }
 
 .field {
@@ -141,7 +152,6 @@ body {
   border-radius: 5px;
   color: #0d1927;
   background-color: transparent;
-  border: 1px solid black;
   font-size: 0.7rem;
 }
 

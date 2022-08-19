@@ -22,11 +22,10 @@ span {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  background-color: #2f343a;
   z-index: 3;
   width: 100%;
   margin-left: -10px;
+  margin-top: 30px;
 }
 
 .heading h1 {
@@ -35,15 +34,19 @@ span {
 }
 
 .heading h2 {
+  position: fixed;
+  background-color: #2f343a;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-top: 5px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: #2f343a;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 .heading h2 > a {
@@ -90,7 +93,7 @@ span {
 }
 
 .active {
-  margin-top: 220px;
+  margin-top: 30px;
 }
 
 .txt {

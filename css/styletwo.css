@@ -21,11 +21,10 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  background-color: #f9f586;
   z-index: 3;
   width: 100%;
   margin-left: -10px;
+  margin-top: 30px;
 }
 
 .heading h1 {
@@ -37,13 +36,17 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  padding-top: 5px;
+  background-color: #f9f586;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   background-color: #f9f586;
+  top: 0;
   width: 100%;
   width: 100%;
   z-index: 1;
+  position: fixed;
 }
 
 .heading h2 > a {
@@ -107,7 +110,7 @@ body {
   justify-content: center;
   padding: 0px 5px 35px 5px;
   width: fit-content;
-  margin: 230px auto 30px auto;
+  margin: 30px auto 30px auto;
   background: white;
   color: black;
   border-radius: 7px;
@@ -149,9 +152,13 @@ body {
   margin-top: 5px;
   width: 150px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: #d2fce4;
   font-size: 0.7rem;
+}
+
+.field::placeholder {
+  color: black;
 }
 
 .field-spec {
@@ -160,9 +167,13 @@ body {
   margin-left: -1px;
   width: 150px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: #d2fce4;
   font-size: 0.7rem;
+}
+
+.field-spec::placeholder {
+  color: black;
 }
 
 .field:focus {
@@ -175,7 +186,7 @@ body {
   margin-top: 5px;
   width: 305px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: #d2fce4;
   font-size: 0.7rem;
 }
@@ -184,16 +195,24 @@ body {
   outline: none;
 }
 
+.spec-field::placeholder {
+  color: black;
+}
+
 .spec-field-two {
   padding: 8px 10px;
   border: none;
   margin-top: 5px;
   width: 305px;
   height: 180px;
-  color: grey;
+  color: black;
   background-color: rgb(220, 231, 252);
   font-size: 0.7rem;
   outline: none;
+}
+
+.spec-field-two::placeholder {
+  color: black;
 }
 
 .spec-field-five {
@@ -202,9 +221,13 @@ body {
   margin-top: 5px;
   width: 150px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: rgb(220, 231, 252);
   font-size: 0.7rem;
+}
+
+.spec-field-five::placeholder {
+  color: black;
 }
 
 .spec-field-three {
@@ -213,16 +236,21 @@ body {
   margin-top: 5px;
   width: 250px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: rgb(252, 216, 222);
   font-size: 0.7rem;
   outline: none;
+}
+
+.spec-field-three::placeholder {
+  color: black;
 }
 
 .spec-field-two::placeholder {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  color: black;
 }
 
 .spec-field-four {
@@ -232,10 +260,14 @@ body {
   margin-top: 5px;
   width: 73px;
   height: 33px;
-  color: grey;
+  color: black;
   background-color: #d2fce4;
   font-size: 0.7rem;
   outline: none;
+}
+
+.spec-field-four::placeholder {
+  color: black;
 }
 
 .btn-one {
