@@ -137,6 +137,7 @@ body {
 
 .spec-field {
   padding: 12px 10px;
+  height: 38px;
   border: none;
   margin-top: 5px;
   margin-right: 20px;
@@ -146,7 +147,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
-  height: 38px;
   background-color: transparent;
   color: white;
   font-size: 0.7rem;
@@ -159,6 +159,7 @@ body {
 
 .spec-field-one {
   padding: 9px 10px;
+  height: 38px;
   border: none;
   margin-top: 5px;
   margin-left: 20px;
@@ -168,7 +169,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
-  height: 38px;
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
@@ -177,6 +177,7 @@ body {
 
 .spec-field-three {
   padding: 11px 10px;
+  height: 38px;
   border: none;
   margin-top: 5px;
   margin-left: 20px;
@@ -186,7 +187,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   border-right: 1px solid rgba(255, 255, 255, 0.35);
   width: 200px;
-  height: 38px;
   color: white;
   background-color: transparent;
   font-size: 0.7rem;
@@ -211,12 +211,6 @@ body {
   background-color: transparent;
   font-size: 0.7rem;
   outline: none;
-}
-
-.spec-field-spec {
-  margin-right: -4px;
-  margin-left: -24px;
-  height: 38px;
 }
 
 .spec-field-specs {
