@@ -82,6 +82,7 @@ body{
     margin: 20px auto 50px auto;
     display: flex;
     border: none;
+    background: white;
   }
 
   button a {
